@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F20BF78126C57C2500331B0A /* WallMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20BF78026C57C2500331B0A /* WallMarker.swift */; };
+		F22CD59226C032210001967E /* CylinderLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22CD59126C032210001967E /* CylinderLine.swift */; };
+		F281F0AD26BFEA2A00C3B122 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F281F0AC26BFEA2A00C3B122 /* Extensions.swift */; };
+		F28896F726CBA46E009919BA /* FloorPlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28896F626CBA46D009919BA /* FloorPlanViewController.swift */; };
+		F28896F926CBC78E009919BA /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28896F826CBC78E009919BA /* MeasurementViewController.swift */; };
+		F28896FB26CBC7DB009919BA /* MeasurementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28896FA26CBC7DB009919BA /* MeasurementViewController.xib */; };
+		F28896FD26CBE9C4009919BA /* FloorPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F28896FC26CBE9C4009919BA /* FloorPlanViewController.xib */; };
+		F28896FF26CBEC8C009919BA /* FloorPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28896FE26CBEC8C009919BA /* FloorPlanView.swift */; };
+		F29D24D226BD8DF60035203D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D24D126BD8DF60035203D /* AppDelegate.swift */; };
+		F29D24D626BD8DF60035203D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D24D526BD8DF60035203D /* ViewController.swift */; };
+		F29D24D926BD8DF60035203D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29D24D726BD8DF60035203D /* Main.storyboard */; };
+		F29D24DB26BD8DF80035203D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29D24DA26BD8DF80035203D /* Assets.xcassets */; };
+		F29D24DE26BD8DF80035203D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29D24DC26BD8DF80035203D /* LaunchScreen.storyboard */; };
+		F29D24E926BD8DF80035203D /* MeasureMyRoomTestsswift in Sources */ = {isa = PBXBuildFile; fileRef = F29D24E826BD8DF80035203D /* MeasureMyRoomTestsswift */; };
+		F29D24F426BD8DF80035203D /* MeasureMyRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29D24F326BD8DF80035203D /* MeasureMyRoomUITests.swift */; };
+		F29FE00626C1CE8A00437B97 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29FE00526C1CE8A00437B97 /* Grid.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F29D24E526BD8DF80035203D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29D24C626BD8DF60035203D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29D24CD26BD8DF60035203D;
+			remoteInfo = CarpetRight;
+		};
+		F29D24F026BD8DF80035203D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F29D24C626BD8DF60035203D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F29D24CD26BD8DF60035203D;
+			remoteInfo = CarpetRight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F20BF78026C57C2500331B0A /* WallMarker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallMarker.swift; sourceTree = "<group>"; };
+		F22CD59126C032210001967E /* CylinderLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CylinderLine.swift; sourceTree = "<group>"; };
+		F281F0AC26BFEA2A00C3B122 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F28896F626CBA46D009919BA /* FloorPlanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanViewController.swift; sourceTree = "<group>"; };
+		F28896F826CBC78E009919BA /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		F28896FA26CBC7DB009919BA /* MeasurementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeasurementViewController.xib; sourceTree = "<group>"; };
+		F28896FC26CBE9C4009919BA /* FloorPlanViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloorPlanViewController.xib; sourceTree = "<group>"; };
+		F28896FE26CBEC8C009919BA /* FloorPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloorPlanView.swift; sourceTree = "<group>"; };
+		F29D24CE26BD8DF60035203D /* MeasureMyRoom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeasureMyRoom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29D24D126BD8DF60035203D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F29D24D526BD8DF60035203D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F29D24D826BD8DF60035203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F29D24DA26BD8DF80035203D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F29D24DD26BD8DF80035203D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F29D24DF26BD8DF80035203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29D24E426BD8DF80035203D /* MeasureMyRoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasureMyRoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29D24E826BD8DF80035203D /* MeasureMyRoomTestsswift */ = {isa = PBXFileReference; lastKnownFileType = text; path = MeasureMyRoomTestsswift; sourceTree = "<group>"; };
+		F29D24EA26BD8DF80035203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29D24EF26BD8DF80035203D /* MeasureMyRoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeasureMyRoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F29D24F326BD8DF80035203D /* MeasureMyRoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureMyRoomUITests.swift; sourceTree = "<group>"; };
+		F29D24F526BD8DF80035203D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29FE00526C1CE8A00437B97 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F29D24CB26BD8DF60035203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29D24E126BD8DF80035203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29D24EC26BD8DF80035203D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F29D24C526BD8DF60035203D = {
+			isa = PBXGroup;
+			children = (
+				F29D24D026BD8DF60035203D /* MeasureMyRoom */,
+				F29D24E726BD8DF80035203D /* MeasureMyRoomTests */,
+				F29D24F226BD8DF80035203D /* MeasureMyRoomUITests */,
+				F29D24CF26BD8DF60035203D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F29D24CF26BD8DF60035203D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F29D24CE26BD8DF60035203D /* MeasureMyRoom.app */,
+				F29D24E426BD8DF80035203D /* MeasureMyRoomTests.xctest */,
+				F29D24EF26BD8DF80035203D /* MeasureMyRoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F29D24D026BD8DF60035203D /* MeasureMyRoom */ = {
+			isa = PBXGroup;
+			children = (
+				F29FE00526C1CE8A00437B97 /* Grid.swift */,
+				F20BF78026C57C2500331B0A /* WallMarker.swift */,
+				F29D24D126BD8DF60035203D /* AppDelegate.swift */,
+				F29D24D526BD8DF60035203D /* ViewController.swift */,
+				F29D24D726BD8DF60035203D /* Main.storyboard */,
+				F29D24DA26BD8DF80035203D /* Assets.xcassets */,
+				F29D24DC26BD8DF80035203D /* LaunchScreen.storyboard */,
+				F29D24DF26BD8DF80035203D /* Info.plist */,
+				F281F0AC26BFEA2A00C3B122 /* Extensions.swift */,
+				F22CD59126C032210001967E /* CylinderLine.swift */,
+				F28896F626CBA46D009919BA /* FloorPlanViewController.swift */,
+				F28896FE26CBEC8C009919BA /* FloorPlanView.swift */,
+				F28896FC26CBE9C4009919BA /* FloorPlanViewController.xib */,
+				F28896F826CBC78E009919BA /* MeasurementViewController.swift */,
+				F28896FA26CBC7DB009919BA /* MeasurementViewController.xib */,
+			);
+			path = MeasureMyRoom;
+			sourceTree = "<group>";
+		};
+		F29D24E726BD8DF80035203D /* MeasureMyRoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				F29D24E826BD8DF80035203D /* MeasureMyRoomTestsswift */,
+				F29D24EA26BD8DF80035203D /* Info.plist */,
+			);
+			path = MeasureMyRoomTests;
+			sourceTree = "<group>";
+		};
+		F29D24F226BD8DF80035203D /* MeasureMyRoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F29D24F326BD8DF80035203D /* MeasureMyRoomUITests.swift */,
+				F29D24F526BD8DF80035203D /* Info.plist */,
+			);
+			path = MeasureMyRoomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F29D24CD26BD8DF60035203D /* MeasureMyRoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29D24F826BD8DF80035203D /* Build configuration list for PBXNativeTarget "MeasureMyRoom" */;
+			buildPhases = (
+				F29D24CA26BD8DF60035203D /* Sources */,
+				F29D24CB26BD8DF60035203D /* Frameworks */,
+				F29D24CC26BD8DF60035203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeasureMyRoom;
+			productName = CarpetRight;
+			productReference = F29D24CE26BD8DF60035203D /* MeasureMyRoom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F29D24E326BD8DF80035203D /* MeasureMyRoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29D24FB26BD8DF80035203D /* Build configuration list for PBXNativeTarget "MeasureMyRoomTests" */;
+			buildPhases = (
+				F29D24E026BD8DF80035203D /* Sources */,
+				F29D24E126BD8DF80035203D /* Frameworks */,
+				F29D24E226BD8DF80035203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29D24E626BD8DF80035203D /* PBXTargetDependency */,
+			);
+			name = MeasureMyRoomTests;
+			productName = CarpetRightTests;
+			productReference = F29D24E426BD8DF80035203D /* MeasureMyRoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F29D24EE26BD8DF80035203D /* MeasureMyRoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F29D24FE26BD8DF80035203D /* Build configuration list for PBXNativeTarget "MeasureMyRoomUITests" */;
+			buildPhases = (
+				F29D24EB26BD8DF80035203D /* Sources */,
+				F29D24EC26BD8DF80035203D /* Frameworks */,
+				F29D24ED26BD8DF80035203D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F29D24F126BD8DF80035203D /* PBXTargetDependency */,
+			);
+			name = MeasureMyRoomUITests;
+			productName = CarpetRightUITests;
+			productReference = F29D24EF26BD8DF80035203D /* MeasureMyRoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F29D24C626BD8DF60035203D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					F29D24CD26BD8DF60035203D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					F29D24E326BD8DF80035203D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F29D24CD26BD8DF60035203D;
+					};
+					F29D24EE26BD8DF80035203D = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = F29D24CD26BD8DF60035203D;
+					};
+				};
+			};
+			buildConfigurationList = F29D24C926BD8DF60035203D /* Build configuration list for PBXProject "MeasureMyRoom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F29D24C526BD8DF60035203D;
+			productRefGroup = F29D24CF26BD8DF60035203D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F29D24CD26BD8DF60035203D /* MeasureMyRoom */,
+				F29D24E326BD8DF80035203D /* MeasureMyRoomTests */,
+				F29D24EE26BD8DF80035203D /* MeasureMyRoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F29D24CC26BD8DF60035203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D24DE26BD8DF80035203D /* LaunchScreen.storyboard in Resources */,
+				F29D24DB26BD8DF80035203D /* Assets.xcassets in Resources */,
+				F28896FD26CBE9C4009919BA /* FloorPlanViewController.xib in Resources */,
+				F29D24D926BD8DF60035203D /* Main.storyboard in Resources */,
+				F28896FB26CBC7DB009919BA /* MeasurementViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29D24E226BD8DF80035203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29D24ED26BD8DF80035203D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F29D24CA26BD8DF60035203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28896F726CBA46E009919BA /* FloorPlanViewController.swift in Sources */,
+				F28896FF26CBEC8C009919BA /* FloorPlanView.swift in Sources */,
+				F29D24D626BD8DF60035203D /* ViewController.swift in Sources */,
+				F281F0AD26BFEA2A00C3B122 /* Extensions.swift in Sources */,
+				F29D24D226BD8DF60035203D /* AppDelegate.swift in Sources */,
+				F20BF78126C57C2500331B0A /* WallMarker.swift in Sources */,
+				F29FE00626C1CE8A00437B97 /* Grid.swift in Sources */,
+				F22CD59226C032210001967E /* CylinderLine.swift in Sources */,
+				F28896F926CBC78E009919BA /* MeasurementViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29D24E026BD8DF80035203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D24E926BD8DF80035203D /* MeasureMyRoomTestsswift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F29D24EB26BD8DF80035203D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F29D24F426BD8DF80035203D /* MeasureMyRoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F29D24E626BD8DF80035203D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29D24CD26BD8DF60035203D /* MeasureMyRoom */;
+			targetProxy = F29D24E526BD8DF80035203D /* PBXContainerItemProxy */;
+		};
+		F29D24F126BD8DF80035203D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F29D24CD26BD8DF60035203D /* MeasureMyRoom */;
+			targetProxy = F29D24F026BD8DF80035203D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F29D24D726BD8DF60035203D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29D24D826BD8DF60035203D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F29D24DC26BD8DF80035203D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F29D24DD26BD8DF80035203D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F29D24F626BD8DF80035203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F29D24F726BD8DF80035203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F29D24F926BD8DF80035203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeasureMyRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.brightec.measureRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F29D24FA26BD8DF80035203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeasureMyRoom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.brightec.measureRoom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F29D24FC26BD8DF80035203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4Z5R7G8ZW;
+				INFOPLIST_FILE = MeasureMyRoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.brightec.measureRoom.MeasureMyRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasureMyRoom.app/MeasureMyRoom";
+			};
+			name = Debug;
+		};
+		F29D24FD26BD8DF80035203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4Z5R7G8ZW;
+				INFOPLIST_FILE = MeasureMyRoomTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.brightec.measureRoom.MeasureMyRoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeasureMyRoom.app/MeasureMyRoom";
+			};
+			name = Release;
+		};
+		F29D24FF26BD8DF80035203D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4Z5R7G8ZW;
+				INFOPLIST_FILE = MeasureMyRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.brightec.measureRoom.MeasureMyRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeasureMyRoom;
+			};
+			name = Debug;
+		};
+		F29D250026BD8DF80035203D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q4Z5R7G8ZW;
+				INFOPLIST_FILE = MeasureMyRoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.brightec.measureRoom.MeasureMyRoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeasureMyRoom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F29D24C926BD8DF60035203D /* Build configuration list for PBXProject "MeasureMyRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29D24F626BD8DF80035203D /* Debug */,
+				F29D24F726BD8DF80035203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29D24F826BD8DF80035203D /* Build configuration list for PBXNativeTarget "MeasureMyRoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29D24F926BD8DF80035203D /* Debug */,
+				F29D24FA26BD8DF80035203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29D24FB26BD8DF80035203D /* Build configuration list for PBXNativeTarget "MeasureMyRoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29D24FC26BD8DF80035203D /* Debug */,
+				F29D24FD26BD8DF80035203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F29D24FE26BD8DF80035203D /* Build configuration list for PBXNativeTarget "MeasureMyRoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F29D24FF26BD8DF80035203D /* Debug */,
+				F29D250026BD8DF80035203D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F29D24C626BD8DF60035203D /* Project object */;
+}

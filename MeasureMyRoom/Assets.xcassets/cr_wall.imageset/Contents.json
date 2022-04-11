@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "cr_wall.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
